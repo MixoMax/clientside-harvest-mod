@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "clientsideharvest",
+  "version": "${version}",
+  "name": "ClientSideHarvest",
+  "description": "A client-side Fabric mod for Minecraft that lets you harvest and replant crops in a single right-click. Works on any vanilla server, supports Fortune tools, and automatically selects the correct seed for each crop type.",
+  "icon": "icon.png",
+  "authors": [
+    "MixoMax"
+  ],
+  "contact": {
+    "homepage": "...",
+    "sources": "https://github.com/MixoMax/clientside-harvest-mod",
+    "issues": "https://github.com/MixoMax/clientside-harvest-mod/issues"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.clientsideharvest.HarvestModClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~26.1.2",
+    "java": ">=17",
+    "fabric-api": ">=0.149.0+26.1.2"
+  }
+}
